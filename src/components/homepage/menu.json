@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_homepage_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menuSection": {
+      "displayName": "Menu Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.menu-section"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

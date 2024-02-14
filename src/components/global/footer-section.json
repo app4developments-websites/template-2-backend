@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_footer_sections",
+  "info": {
+    "displayName": "Footer Section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

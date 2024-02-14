@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_install_apps",
+  "info": {
+    "displayName": "Install App",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "download_buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::download-button.download-button"
+    }
+  }
+}

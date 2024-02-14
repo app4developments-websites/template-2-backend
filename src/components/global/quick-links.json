@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_quick_links",
+  "info": {
+    "displayName": "Quick Links",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

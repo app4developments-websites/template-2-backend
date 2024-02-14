@@ -17,27 +17,28 @@
       "repeatable": false,
       "component": "homepage.hero"
     },
-    "ourStory": {
+    "info": {
       "type": "component",
-      "repeatable": false,
-      "component": "homepage.our-story"
+      "repeatable": true,
+      "component": "homepage.info"
     },
-    "topPicks": {
-      "displayName": "Top Picks",
+    "about": {
+      "displayName": "About",
       "type": "component",
       "repeatable": false,
-      "component": "homepage.top-picks"
+      "component": "homepage.about"
+    },
+    "menu": {
+      "displayName": "Menu",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.menu"
     },
     "downloadApp": {
       "displayName": "Download App",
       "type": "component",
       "repeatable": false,
       "component": "homepage.download-app"
-    },
-    "footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.footer"
     }
   }
 }

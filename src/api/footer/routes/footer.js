@@ -6,13 +6,13 @@
 
 const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter("api::homepage.homepage", {
+module.exports = createCoreRouter("api::footer.footer", {
   config: {
     find: {
-      middlewares: ["api::homepage.get-homepage"],
+      middlewares: ["api::footer.get-footer"],
     },
     findOne: {
-      middlewares: ["api::homepage.get-homepage"],
+      middlewares: ["api::footer.get-footer"],
     },
   },
 });

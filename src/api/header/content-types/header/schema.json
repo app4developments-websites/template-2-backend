@@ -1,18 +1,17 @@
 {
-  "collectionName": "components_homepage_heroes",
+  "kind": "singleType",
+  "collectionName": "headers",
   "info": {
-    "displayName": "Hero",
-    "icon": "store"
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
   "attributes": {
-    "mainText": {
-      "type": "string"
-    },
-    "subText": {
-      "type": "string"
-    },
-    "background": {
+    "menuIcon": {
       "allowedTypes": [
         "images",
         "files",
@@ -22,7 +21,7 @@
       "type": "media",
       "multiple": false
     },
-    "logo": {
+    "closeIcon": {
       "allowedTypes": [
         "images",
         "files",

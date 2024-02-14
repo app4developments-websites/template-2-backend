@@ -1,17 +1,20 @@
 {
-  "kind": "singleType",
-  "collectionName": "logos",
+  "kind": "collectionType",
+  "collectionName": "image_buttons",
   "info": {
-    "singularName": "logo",
-    "pluralName": "logos",
-    "displayName": "Logo"
+    "singularName": "image-button",
+    "pluralName": "image-buttons",
+    "displayName": "Image Button"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "logo": {
+    "href": {
+      "type": "string"
+    },
+    "image": {
       "allowedTypes": [
         "images",
         "files",
