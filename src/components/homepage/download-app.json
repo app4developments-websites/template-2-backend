@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_homepage_download_apps",
+  "info": {
+    "displayName": "Download App",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::button.button"
+    },
+    "mainBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appScreenshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "download_buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::download-button.download-button"
+    }
+  }
+}

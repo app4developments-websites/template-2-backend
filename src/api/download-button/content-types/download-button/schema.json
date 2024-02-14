@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_buttons",
+  "info": {
+    "singularName": "download-button",
+    "pluralName": "download-buttons",
+    "displayName": "Download Button"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

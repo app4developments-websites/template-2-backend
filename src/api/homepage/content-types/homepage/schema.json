@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero"
+    },
+    "ourStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.our-story"
+    },
+    "topPicks": {
+      "displayName": "Top Picks",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.top-picks"
+    },
+    "downloadApp": {
+      "displayName": "Download App",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.download-app"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.footer"
+    }
+  }
+}

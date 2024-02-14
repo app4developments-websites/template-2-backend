@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_homepage_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "monitor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quickLinksHeader": {
+      "type": "string"
+    },
+    "findUsHeader": {
+      "type": "string"
+    },
+    "openingHoursHeader": {
+      "type": "string"
+    },
+    "address": {
+      "type": "blocks"
+    },
+    "openingHours": {
+      "type": "blocks"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "showSocialButtons": {
+      "type": "boolean"
+    }
+  }
+}
